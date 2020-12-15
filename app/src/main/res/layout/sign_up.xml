@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5A35CA"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+        android:background="@drawable/heading">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Create profile to start your first ToDo List"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/RegisterName"
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="60dp"
+        android:hint="Your Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:drawablePadding="10dp"
+        android:background="#8357DB"
+        android:textSize="18sp"
+    />
+
+
+    <EditText
+        android:id="@+id/RegisterPassword"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="#8357DB"
+        android:hint="Password"
+        android:drawablePadding="10dp"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/RegisterEmail"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Your email Address"
+        android:drawablePadding="10dp"
+        android:background="#8357DB"
+        android:textSize="18sp"
+        />
+
+
+
+    <Button
+        android:id="@+id/Register_btn"
+        android:layout_gravity="center"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_background"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Register"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:hint="Already have an account ?"
+        android:textColorHint="@color/hint_color"
+        />
+
+    <TextView
+        android:id="@+id/To_login"
+        android:layout_width="330dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Log in"
+
+
+        />
+
+
+</LinearLayout>
