@@ -8,10 +8,10 @@
     tools:context=".SignUp">
 
     <LinearLayout
-        android:scrollbars="vertical"
         android:layout_width="match_parent"
         android:layout_height="170dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:scrollbars="vertical">
 
         <TextView
             android:layout_width="wrap_content"
@@ -19,45 +19,15 @@
             android:layout_gravity="center"
             android:layout_marginTop="80dp"
             android:gravity="center"
-            android:text="Create profile to start your first ToDo List"
+            android:text="Welcome back"
             android:textColor="@color/white"
-            android:textSize="34sp" />
+            android:textSize="38sp" />
 
     </LinearLayout>
 
-    <EditText
-        android:id="@+id/RegisterName"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="60dp"
-        android:background="#8357DB"
-        android:drawablePadding="10dp"
-        android:hint="Your Name"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:textSize="18sp" />
-
 
     <EditText
-        android:id="@+id/RegisterPassword"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="#8357DB"
-        android:drawablePadding="10dp"
-        android:hint="Password"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:textSize="18sp" />
-
-    <EditText
-        android:id="@+id/RegisterEmail"
+        android:id="@+id/LoginEmail"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
@@ -72,8 +42,24 @@
         android:textSize="18sp" />
 
 
+    <EditText
+        android:id="@+id/LoginPassword"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#8357DB"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+
     <Button
-        android:id="@+id/Register_btn"
+        android:id="@+id/Login_btn"
         android:layout_width="330dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -82,9 +68,9 @@
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        android:text="Create your profile"
+        android:text="Login"
         android:textColor="@color/white"
-        android:textSize="22sp" />
+        android:textSize="26sp" />
 
     <TextView
         android:layout_width="330dp"
@@ -92,23 +78,21 @@
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:gravity="center"
-        android:hint="Already have an account ?"
+        android:hint="Don't have account ?"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/To_login"
+        android:id="@+id/To_SignUp"
         android:layout_width="330dp"
         android:layout_height="25dp"
         android:layout_gravity="center"
-   
         android:layout_marginTop="5dp"
         android:gravity="center"
-        android:text="Log in"
+        android:text="Sign Up"
         android:textColor="@color/white"
-        android:textSize="18sp"
-        />
+        android:textSize="18sp" />
 
 
 </LinearLayout>
